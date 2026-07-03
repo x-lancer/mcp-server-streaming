@@ -1,0 +1,37 @@
+version: 0.0.5
+type: plugin
+author: hjlarry
+name: mcp-server-streaming
+label:
+  en_US: MCP server (Streaming)
+  zh_Hans: MCP服务器（流式版）
+description:
+  en_US: "make dify's workflow as a MCP server (modified: supports streaming mode for Agent apps)"
+  zh_Hans: "使dify的工作流或对话流成为一个MCP服务器（修改版：支持Agent应用的流式模式）"
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  endpoints:
+    - group/mcp-server.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.3.0
+created_at: 2025-03-17T16:01:01.118569+08:00
+privacy: PRIVACY.md
+verified: false
