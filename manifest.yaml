@@ -1,13 +1,13 @@
-version: 0.0.5
+version: 0.0.14
 type: plugin
-author: hjlarry
+author: x-lancer
 name: mcp-server-streaming
 label:
-  en_US: MCP server (Streaming)
-  zh_Hans: MCP服务器（流式版）
+  en_US: MCP server (Customized)
+  zh_Hans: MCP服务器（定制版）
 description:
-  en_US: "make dify's workflow as a MCP server (modified: supports streaming mode for Agent apps)"
-  zh_Hans: "使dify的工作流或对话流成为一个MCP服务器（修改版：支持Agent应用的流式模式）"
+  en_US: "make dify's workflow as a MCP server (customized: supports both streaming and blocking response modes)"
+  zh_Hans: "使dify的工作流或对话流成为一个MCP服务器（定制版：支持流式和阻塞两种响应模式）"
 icon: icon.svg
 resource:
   memory: 268435456

@@ -17,9 +17,11 @@ settings:
     options:
       - label:
           en_US: Chat
+          zh_Hans: 对话
         value: chat
       - label:
           en_US: Workflow
+          zh_Hans: 工作流
         value: workflow
   - name: app-input-schema
     type: text-input
@@ -38,10 +40,12 @@ settings:
       zh_Hans: 响应模式
     options:
       - label:
-          en_US: "streaming (Agent App required)"
+          en_US: "Streaming"
+          zh_Hans: "流式传输"
         value: streaming
       - label:
-          en_US: "blocking (Chatflow/Workflow)"
+          en_US: "Blocking"
+          zh_Hans: "一次性返回"
         value: blocking
     default: blocking
   - name: auth-token
